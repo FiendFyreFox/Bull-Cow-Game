@@ -42,7 +42,7 @@ private:
 	int32 MyCurrentTry;
 	int32 MyMaxTries;
 	FString MyHiddenWord;
-	char WordChoices[10][6] = {"candle", "planes", "boiler", "depart", "coaxed", "rights", "urgent", "drowsy", "sweaty", "united"};
+	char WordChoices[10][7] = {"candle", "planes", "boiler", "depart", "coaxed", "rights", "urgent", "drowsy", "sweaty", "united"};
 	bool bGameIsWon;
 	
 	
