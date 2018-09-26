@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <list>
 
 using FString = std::string;
 using int32 = int;
@@ -41,6 +42,7 @@ private:
 	int32 MyCurrentTry;
 	int32 MyMaxTries;
 	FString MyHiddenWord;
+	char WordChoices[10][6] = {"candle", "planes", "boiler", "depart", "coaxed", "rights", "urgent", "drowsy", "sweaty", "united"};
 	bool bGameIsWon;
 	
 	
